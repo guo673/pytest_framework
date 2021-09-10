@@ -1,0 +1,23 @@
+2021-09-10 14:55:02,813 - test_user_login.py:28 - *************** 开始执行用例 ***************
+2021-09-10 14:55:02,813 - http_api.py:54 - 接口请求地址 ==>> http://36.255.220.139:20000/api/login
+2021-09-10 14:55:02,814 - http_api.py:55 - 接口请求方式 ==>> POST
+2021-09-10 14:55:02,814 - http_api.py:57 - 接口请求头 ==>> {
+    "SIGN": "W1dmZcIoEygoUGW7H1BPP2BHP070MPNNmElpFb0lAiMd6GU67f3Adf14CahjiTsAFz14ZX/pGML17LC1Erkb42NP56Byfe8WF7MKznUu6N4hFYL9/vp4p/fSLnW8sxyXRlr2bgRZxIk+MXEQAIhWyfQMEJe5OSdOrcEUm/ulbdjBlxF/+v48FsibZP1GqaE/u38Zj9P5P7HEsgm03ZbksYgEriFs1SF4bt6MD7ah31BdemBzhWGUL+EcKVqcXLUlILnZ1vi9hnS6XaMtOVVOse9wOxdmDlW6oSXq4dnYmTqOzItJQEoAVKC9yyUnfsQ463V9Z65pkzdJbvXDBQdzZQ=="
+}
+2021-09-10 14:55:02,814 - http_api.py:58 - 接口请求 params 参数 ==>> null
+2021-09-10 14:55:02,814 - http_api.py:59 - 接口请求体 data 参数 ==>> null
+2021-09-10 14:55:02,814 - http_api.py:60 - 接口请求体 json 参数 ==>> {
+    "area_code": "+86",
+    "device_id": "",
+    "login_password": "aS8tJpNo5H1P8AF1l3I6SoUM5rLfEz3jRUVHHdDOM5nLUSL9GjwolGhVr1mshXzPTUT0iXSGBDHAqQ0hJcuv4kuoqaODqc08Kgag9LXDhiQSjXgoyQoISlOfoBGCa76vOADA/PK6HRowDu26dl+Jje9GKNlLQihKDwP9Rkdzcqsqg7LAnClHzz0o/h4iDXFJ6CI7VW5dQaA/TwNObax+kjmdhjf/ApibuhjttTXOo3JgveDGrAwHbST38e+A3v/rtSOdw9zjMQmcEQG2QSPg8+w8Er95wyY5NOh/F69xJQPi7Haaq7/ttv9339pQ0aTGGxhPT1UgrnZcJSDNXYy2Mw==",
+    "two_factor_code": 12,
+    "type": 1,
+    "user_name": "13636468690",
+    "verification_code": "123456"
+}
+2021-09-10 14:55:02,814 - http_api.py:61 - 接口上传附件 files 参数 ==>> None
+2021-09-10 14:55:02,814 - http_api.py:62 - 接口 cookies 参数 ==>> null
+2021-09-10 14:55:03,195 - user.py:35 - 登录用户 ==>> 返回结果 ==>> {"code":0,"msg":"","data":{"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VyTmFtZSI6IjEzNjM2NDY4NjkwIiwiTWVtYmVySWQiOjI5MTA4NzM2LCJleHAiOjE2MzEyNjA1MDR9.29PjyvLqNxir95AbiDt4d0w76jjg8Bc6CUuVs13iJ2Q","deviation_timestamp":2608703071}}
+2021-09-10 14:55:03,195 - test_user_login.py:13 - 步骤1 ==>> 登录用户：13636468690
+2021-09-10 14:55:03,195 - test_user_login.py:35 - code ==>> 期望结果：0， 实际结果：【 0 】
+2021-09-10 14:55:03,196 - test_user_login.py:38 - *************** 结束执行用例 ***************
