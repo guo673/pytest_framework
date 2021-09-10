@@ -1,4 +1,4 @@
-# pytest_framework
+# pytest_framework 自动化测试框架
 ### 项目结构
 ```
 api ====>> 接口封装层，包括封装HTTP接口为Python接口和requests请求方法封装
