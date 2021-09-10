@@ -1,4 +1,4 @@
 test_login_user:
   # 用户名,密码,期望结果,期望返回码,期望返回信息
   # username, password, except_result, except_code, except_msg
-  - ["13636468690", "aS8tJpNo5H1P8AF1l3I6SoUM5rLfEz3jRUVHHdDOM5nLUSL9GjwolGhVr1mshXzPTUT0iXSGBDHAqQ0hJcuv4kuoqaODqc08Kgag9LXDhiQSjXgoyQoISlOfoBGCa76vOADA/PK6HRowDu26dl+Jje9GKNlLQihKDwP9Rkdzcqsqg7LAnClHzz0o/h4iDXFJ6CI7VW5dQaA/TwNObax+kjmdhjf/ApibuhjttTXOo3JgveDGrAwHbST38e+A3v/rtSOdw9zjMQmcEQG2QSPg8+w8Er95wyY5NOh/F69xJQPi7Haaq7/ttv9339pQ0aTGGxhPT1UgrnZcJSDNXYy2Mw==", True, 0, ""]
+  - ["", "", True, 0, ""]
